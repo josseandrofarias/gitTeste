@@ -1,1 +1,2 @@
 git blame nomedoarquivo -- ver linha por linha quem e o que foi feito
+git clone urldoGitHub -- baixar projeto do git
