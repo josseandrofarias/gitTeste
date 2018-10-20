@@ -1,4 +1,5 @@
 git config --global user.name "nome da pessoa"
 git config --global user.email "email@githubde preferencia"
+git init -- iniciar o versionamento na pasta
 git blame nomedoarquivo -- ver linha por linha quem e o que foi feito
 git clone urldoGitHub -- baixar projeto do git
