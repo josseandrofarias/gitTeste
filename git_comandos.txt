@@ -3,3 +3,5 @@ git config --global user.email "email@githubde preferencia"
 git init -- iniciar o versionamento na pasta
 git blame nomedoarquivo -- ver linha por linha quem e o que foi feito
 git clone urldoGitHub -- baixar projeto do git
+
+rm -rf .git/ --apaga o repositório git (não irá mais rodar)
