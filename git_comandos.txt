@@ -27,3 +27,7 @@ git checkout -b nomedabranch (Cria branch nova)
 git branch (Ver as branch existente e em qual esta)  
 git checkou nomebranch (mudar de branch)
 git branch -D nomebranch (Apagar Branch)
+
+git merge nomebranch (unir branch, cria um commit para realizar junção)
+
+git rebase nomebranch (unir branch sem criar um novo commit, mais indicado para não fazer commit desnecessário)
