@@ -5,7 +5,9 @@ git blame nomedoarquivo -- ver linha por linha quem e o que foi feito
 git clone urldoGitHub -- baixar projeto do git
 git diff -- Ver o que foi alterado linha a linha
 git diff --name-only -- ver o apenas os nomes dos arquivos que foram alterados
-git checkout nomearquivo --remove arquivo da lista de add
+git checkout nomearquivo --remove alterações feitas (Antes de dar add)
+git reset HEAD nomearquivo -- (HEAD, voltar ponteiro que está, local atual) remover da fila de estado (add)
+
 
 
 rm -rf .git/ --apaga o repositório git (não irá mais rodar)
