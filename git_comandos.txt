@@ -11,4 +11,11 @@ git reset (-- soft --mixed --hard) hash -- (--soft (remove commit e volta para f
 
 
 rm -rf .git/ --apaga o repositório git (não irá mais rodar)
+_______________________________________________________________ 
+Problemas com o ssh
+Adicionar chave do ssh do pc no git
+
+cd ~/.ssh/ --diretório das chaves
+cat nomecahve.pub --pegar rsa da chave publica para add no git
+_______________________________________________________________  
   
