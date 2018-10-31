@@ -9,6 +9,7 @@ git checkout nomearquivo --remove alterações feitas (Antes de dar add)
 git reset HEAD nomearquivo -- (HEAD, voltar ponteiro que está, local atual) remover da fila de estado (add)
 git reset (-- soft --mixed --hard) hash -- (--soft (remove commit e volta para fila de estado) --mixed(matar commit volta para status de modificado (antes do add) --hard (mata tudo, ignora tudo oq ue foi feito) hash temq ue ser uma antes da que deseja alterar
 
+
 git push -u origin  master --(origin, para onde vai), (master, de onde vem)
 
 rm -rf .git/ --apaga o repositório git (não irá mais rodar)
@@ -19,4 +20,10 @@ Adicionar chave do ssh do pc no git
 cd ~/.ssh/ --diretório das chaves
 cat nomecahve.pub --pegar rsa da chave publica para add no git
 _______________________________________________________________  
-  
+
+Branch
+
+git checkout -b nomedabranch (Cria branch nova)
+git branch (Ver as branch existente e em qual esta)  
+git checkou nomebranch (mudar de branch)
+git branch -D nomebranch (Apagar Branch)
