@@ -3,5 +3,9 @@ git config --global user.email "email@githubde preferencia"
 git init -- iniciar o versionamento na pasta
 git blame nomedoarquivo -- ver linha por linha quem e o que foi feito
 git clone urldoGitHub -- baixar projeto do git
+git diff -- Ver o que foi alterado linha a linha
+git diff --name-only -- ver o apenas os nomes dos arquivos que foram alterados
+git checkout nomearquivo --remove arquivo da lista de add
+
 
 rm -rf .git/ --apaga o repositório git (não irá mais rodar)
