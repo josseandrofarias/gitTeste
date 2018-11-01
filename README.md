@@ -1,3 +1,3 @@
 # gitTeste
--Arquivos de teste
--Comandos
+-> Arquivos de teste
+-> Comandos
