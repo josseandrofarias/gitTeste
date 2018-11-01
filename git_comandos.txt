@@ -46,3 +46,7 @@ Git Tag
 
 git tag -a numero -m "comentário" (-a indicar que possui uma notação, -m a mensagem)
 git push origin master --tags (Psuh das tags)
+_________________________________________________________
+Git Revert
+
+Git revert hashDoCommit (Reverter e deixar salvo no log que foi revertido, possível para correção posteriormente)
