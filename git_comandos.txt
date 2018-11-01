@@ -31,3 +31,13 @@ git branch -D nomebranch (Apagar Branch)
 git merge nomebranch (unir branch, cria um commit para realizar junção)
 
 git rebase nomebranch (unir branch sem criar um novo commit, mais indicado para não fazer commit desnecessário)
+_________________________________________________________
+Git Stash
+#Quando não quer subir uma atualização de um arquivo ainda, pois não está termiado (muito utilizado) 
+git stash (Guardar modificações, marcando como em progreço, não é listado nos status)
+git stash apply (Aplica as mudanças que foram feitas, volta para status)
+git stash list (Mostra a lista de stash )
+git stash clear (Limpa toda a lista de stash)
+_________________________________________________________
+Criar Atalhos
+git config --global alias.teclaquedeseja comandoGitDoAtalho (ex: alias.s status)
